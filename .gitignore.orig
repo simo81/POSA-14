@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #############################################################################
 #
 # .gitignore declares what files should be ignored by git
@@ -80,5 +81,17 @@ proguard/
 # Temp files for KDE and other Editor's 
 *~
 
-.classpath
-.project
+=======
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> a96fa14bd696e1f1c9a6da9ee10711a67ed7ad85
