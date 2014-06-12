@@ -159,7 +159,7 @@ public class PalantirManagerUnitTest {
                     }
                 }
                 public String name() {
-                    return "MinasTirith";
+                    return "11111";
                 }
             });
         // Orthanc Palantir
@@ -172,7 +172,7 @@ public class PalantirManagerUnitTest {
                 }
 
                 public String name() {
-                    return "Orthanc";
+                    return "222222";
                 }
             });
         // Barad-dur Palantir
@@ -186,7 +186,7 @@ public class PalantirManagerUnitTest {
                     }
                 }
                 public String name() {
-                    return "Barad-dur";
+                    return "33333";
                 }
             });
 

@@ -25,7 +25,7 @@ public class PalantirManagerUnitTest {
      * If this is set to true in then lots of debugging output will be
      * generated.
      */
-    public static boolean diagnosticsEnabled = false;
+    public static boolean diagnosticsEnabled = true;
 
     /**
      * Total number of times each Palantir user gets to gaze into a
@@ -159,7 +159,7 @@ public class PalantirManagerUnitTest {
                     }
                 }
                 public String name() {
-                    return "MinasTirith";
+                    return "11111";
                 }
             });
         // Orthanc Palantir
@@ -172,7 +172,7 @@ public class PalantirManagerUnitTest {
                 }
 
                 public String name() {
-                    return "Orthanc";
+                    return "222222";
                 }
             });
         // Barad-dur Palantir
@@ -186,7 +186,7 @@ public class PalantirManagerUnitTest {
                     }
                 }
                 public String name() {
-                    return "Barad-dur";
+                    return "333333";
                 }
             });
 
@@ -214,11 +214,11 @@ public class PalantirManagerUnitTest {
             // Create a list of Middle-Earth Beings who want to use
             // the Palantir.
             List<Thread> palantirUsers = new ArrayList<Thread>();
-            palantirUsers.add(new Thread(usePalantir, "Pippen"));
-            palantirUsers.add(new Thread(usePalantir, "Aragorn"));
-            palantirUsers.add(new Thread(usePalantir, "Denathor"));
-            palantirUsers.add(new Thread(usePalantir, "Sauron"));
-            palantirUsers.add(new Thread(usePalantir, "Saruman"));
+            palantirUsers.add(new Thread(usePalantir, "AAAAA"));
+            palantirUsers.add(new Thread(usePalantir, "BBBBB"));
+            palantirUsers.add(new Thread(usePalantir, "CCCCC"));
+            palantirUsers.add(new Thread(usePalantir, "DDDDD"));
+            palantirUsers.add(new Thread(usePalantir, "EEEEE"));
 
             // Create an object that attempts to check whether the
             // Semaphore implementation is "fair".
